@@ -1,0 +1,15 @@
+first_num = input("What mood are you in? Answer with happy, nervous, sad, excited or relaxed: ")
+
+if first_num == "happy":
+    print("It is great to see you happy!")
+elif first_num == "nervous":
+    print("Take a deep breath 3 times.")
+elif first_num == "sad":
+    print("Think about something nice.")
+elif first_num == "excited":
+    print("Calm a bit.")
+elif first_num == "relaxed":
+    print("Way to go bro.")
+else:
+    print("I don't recognize this mood.")
+
