@@ -1,0 +1,10 @@
+secret = "13"
+
+guess = input("Guess the secret number: ")
+
+if guess == secret:
+    print("Congratulate, you are correct!")
+
+elif guess != "secret":
+    print("Guess again.")
+
