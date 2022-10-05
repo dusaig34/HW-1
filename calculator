@@ -1,0 +1,16 @@
+var_a = int(input("Enter first number: "))
+var_b = int(input("Enter second number: "))
+
+arithemtic = input("Enter + or - or * or / ")
+
+if arithemtic == "+":
+    print(var_a + var_b)
+
+if arithemtic == "-":
+    print(var_a - var_b)
+
+if arithemtic == "*":
+    print(var_a * var_b)
+
+if arithemtic == "/":
+    print(var_a / var_b)
